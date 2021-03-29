@@ -8,6 +8,8 @@
 
 body {
    font-family: Arial, Helvetica, sans-serif;
+   background-image: url(./img/background2.jpg);
+   height: 100%;
 }
 
 input[type=text], textarea, select {
@@ -35,6 +37,7 @@ input[type=submit]:hover {
 }
 
 .container {
+    box-shadow: 0px 0px 5px 5px #252323;
     background-color: #f2f2f2;
     border-radius: 4px;
     padding: 20px;
@@ -49,6 +52,7 @@ input[type=submit]:hover {
     /* text-align: center; */
     align-items: center;
 }
+
 
 /* .bg {
     background-color: yellow;
